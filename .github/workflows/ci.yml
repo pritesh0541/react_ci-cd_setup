@@ -22,3 +22,9 @@ jobs:
             - name: "Clone the Repository"
               uses: actions/checkout@v2
 #             run: git clone "name of repo"  we can use this also
+
+            - name: "Install Dependencies" 
+              run: npm install
+
+            - name: "List Directories"
+              run: ls
