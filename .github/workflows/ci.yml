@@ -18,3 +18,7 @@ jobs:
 
             - name: "check node version"
               run: node --version
+
+            - name: "Clone the Repository"
+              uses: actions/checkout@v2
+#             run: git clone "name of repo"  we can use this also
